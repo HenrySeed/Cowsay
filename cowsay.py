@@ -1,10 +1,12 @@
+#!/usr/bin/python
+
+import sys
+
 '''
 A styled cowsay,
 It uses a cleaner looking speech bubble.
 
-Use print(cowsay('message here')) to print the cow,
-
-eg:
+So long as you're in the same directory you can just:
 
 >>> from cowsay import *
 >>> print(cowsay('Hello World'))
@@ -20,6 +22,21 @@ eg:
         ||     ||
 
 >>>
+
+or,
+
+> python3 cowsay.py This works too
+ __________________
+/  This works too  \
+\__________________/
+   V
+
+    ^__^
+    (oo)\_______
+    (__)\       )\/\/
+        ||----w\|
+        ||     ||
+
 
 (c) Henry Seed 2017
 '''
@@ -84,3 +101,8 @@ def cowsay(message):
     result += ('\n')
 
     return result
+
+
+if __name__ == "__main__":
+    if(len(sys.argv) > 1):
+        print(cowsay(' '.join(sys.argv[1:])))
