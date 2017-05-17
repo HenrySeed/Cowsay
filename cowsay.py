@@ -21,23 +21,6 @@ So long as you're in the same directory you can just:
         ||----w\|
         ||     ||
 
->>>
-
-or,
-
-> python3 cowsay.py This works too
- __________________
-/  This works too  \
-\__________________/
-   V
-
-    ^__^
-    (oo)\_______
-    (__)\       )\/\/
-        ||----w\|
-        ||     ||
-
-
 (c) Henry Seed 2017
 '''
 
