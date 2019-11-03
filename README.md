@@ -8,5 +8,3 @@ It can also do longer paragraphs too!
 ![screenshot2](https://i.imgur.com/b65HS5E.png)
 
 
-(c) Henry Seed 2017
-
