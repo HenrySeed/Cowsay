@@ -15,7 +15,7 @@ So long as you're in the same directory you can just:
 \_______________/
    V
 
-    ^__^
+    A__A
     (oo)\_______
     (__)\       )\/\/
         ||----w\|
@@ -64,7 +64,7 @@ def cowsay(message):
 
     message = cowsay_splitter(message, line_length)
 
-    cow = "    ^__^\n\
+    cow = "    A__A\n\
     (oo)\_______\n\
     (__)\       )\/\/\n\
         ||----w\|\n\
